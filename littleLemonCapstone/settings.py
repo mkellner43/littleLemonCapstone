@@ -56,7 +56,7 @@ ROOT_URLCONF = "littleLemonCapstone.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['templates', 'restaurant/static'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
